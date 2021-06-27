@@ -134,6 +134,10 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .pricing-tables {
+      
+        box-shadow: none;      
+    }
     .member {
         width: 48%;
         margin-bottom: 20px;
