@@ -110,19 +110,39 @@
         visibility: hidden;
         height: 0;
     }
+    .banner-content h2 {
+        font-size: 55px;      
+    }
     .video-left {
         width: 100%;
         margin-bottom: 30px;
     }
     .video-content-right {
         width: 100%;
+        text-align: center;
     }
     .section-title h1 {
         font-size: 40px;
     }
     .service-box {
         width: 48%;
-    }    
+    } 
+    .section-title h1 {
+        font-size: 35px;
+    }
+    .s-content {       
+        text-align: center;
+    }
+    .s-icon {      
+        min-height: 10px;       
+        float: none;
+    }  
+    .section-title h2 {
+        font-size: 50px;        
+    }
+    .section-title p {       
+        font-size: 20px;
+    }
     .service-box:nth-child(2n+2) {
         margin-right: 0;
     }
@@ -132,34 +152,55 @@
     .pricing-table-item {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 20px;        
     }
     .pricing-tables {
-      
-        box-shadow: none;      
+        margin-top: 80px;
+        box-shadow: none;  
     }
     .member {
         width: 48%;
         margin-bottom: 20px;
+    }
+    .blog-post-content h3 {        
+        margin-top: -35px;
+    }
+    .section-title.newslatter-title h2 {
+       
+        font-size: 35px;
     }
     .content-left-map {
         width: 48%;
        
     }
     .content-right-form {
-        width: 48%;
-       
+        width: 48%; 
        
     }
     .content-form{
         width: 48%;
     }
+    .content-right-form h4 {       
+        margin-top: -30px;
+    }
+    .content-right-form p {
+        font-size: 16px;      
+        line-height: 21px;
+        margin-bottom: -15px;
+    }
+    .submit-btn {       
+        font-size: 20px;     
+        padding: 10px 30px;     
+    }
     
     
 }
 @media (max-width:768px) {
+    .banner-content h3 {
+        font-size: 22px;      
+    }
     .banner-content h2 {
-        font-size: 50px;
+        font-size: 45px;
     }
     .default-btn {
         padding: 15px 25px;
@@ -180,6 +221,9 @@
     .section-title p {
         font-size: 22px;
     }
+    .section-title h1 {
+        font-size: 35px;       
+    }
     .service-box {
         width: 100%;
     }
@@ -193,10 +237,13 @@
         margin-right: 20px;
     }
     .section-title h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .section-title p {
-        font-size: 20px;
+        font-size: 16px;
+    }    
+    .s-content {      
+        text-align: center;
     }
     .team-section .section-title h2 {
         font-size: 26px;
@@ -218,18 +265,49 @@
     .content-right-form {
         width: 100%;
     }
+    .content-right-form h4 {
+        margin-top: 0;
+    }
+    .contact-from .submit-btn {     
+        padding: 15px 60px;
+        font-size: 25px;
+        font-weight: 500;
+    }
 }
 @media (max-width:620px) {
+    .default-btn {
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .default-btn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
     .blog-post-item {
         width: 100%;
         margin-bottom: 33px;
     }
+    .section-title h1 {
+        font-size: 30px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title p {
+        font-size: 14px;
+        width: 75%;
+        margin: auto;
+        line-height: 20px;
+    }
+    .member-bio {        
+        text-align: center;
+    }
+    .section-title.newslatter-title p {        
+        font-size: 18px;
+    }
 }
 @media (max-width:568px) {
-    .default-btn {
-        display: block;
-        margin-bottom: 20px;
-    }
+   
     .banner-content h3 {
         font-size: 22px;
     }
@@ -240,6 +318,9 @@
     .banner-section {
         margin-top: 0;
         padding: 88px 0;
+    }
+    .video-content-right h3 {      
+        text-align: center;
     }
     .member {
         width: 100%;
