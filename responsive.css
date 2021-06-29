@@ -199,6 +199,12 @@
         visibility: visible;
         height: 100%;
     }
+    .primary-menu .mobile-menu-check:checked ~ span.menu-cross{
+        opacity: 1;
+    }
+    .primary-menu .mobile-menu-check:checked ~ .mobile-menu-icon{
+        opacity: 0;
+    }
     .primary-menu ul li {
         position: relative;
         display: block;

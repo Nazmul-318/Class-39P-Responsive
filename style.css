@@ -229,7 +229,12 @@ body,h1,h2,h3,h4,h5,h6,p,a,span {
 /*======================================*/
 /* Start   Banner Bottom Section */
 /*======================================*/
-
+span.menu-cross{
+    opacity: 0;
+}
+.mobile-menu-check {
+	opacity: 0;
+}
 .banner-bottom {
     background: #f7f9ff;
     padding: 100px 0;
